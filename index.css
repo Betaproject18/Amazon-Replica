@@ -1,0 +1,94 @@
+
+.container {
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 125px;
+    border: 1px solid lightgrey;
+    height: 390px;
+    width: 400px;
+    padding-left:  10px;
+    padding-right: 10px;
+    margin-left: 450px;
+}
+#header {
+    margin-right: 300px;
+}
+#email-title {
+    display: table-row;
+}
+#email-box {
+    height: 25px;
+    width: 375px;
+}
+#pass-bar{
+    display: inline-flex;
+}
+#forgot-pass {
+    margin-left: 120px;
+}
+#pass-box {
+    height: 25px;
+    width: 375px;
+}
+#continue{
+    width: 385px;
+    height: 30px;  
+    margin-top: 20px;
+    background-color: rgb(235, 201, 13, 0.952);
+    border: .5px solid black;
+    border-radius: 4px;
+}
+#needhelp {
+    margin-right: 250px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: lightgray;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .75em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .75em;
+  }
+  #createaccount {
+      margin-left: 475px;
+      width: 385px;
+      height: 30px; 
+      margin-top: 10px;
+  }
+  #hrule {
+      margin-top: 60px;
+      margin-bottom: 10px;
+  }
+#footer-links {
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+#conditions {
+    position: absolute; left: 500px;
+}
+#privacy {
+    position: absolute; right: 600px;
+}
+#help {
+    position: absolute; right: 540px;
+}
+#copyright {
+    text-align: center;
+}
